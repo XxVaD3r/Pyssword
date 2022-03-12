@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import random
-import string
+#import string
 import os
 import sys
 from datetime import datetime
@@ -28,7 +28,7 @@ def genpasswd():
     for i in range(int(passwd_len)):
         passwd.append(random.choice(alpha_printable))
         i = i + 1
-    
+        
     return 0
 
 genpasswd()
